@@ -7,10 +7,10 @@ Click on releases to the right to get actual configuration file. Everything else
 
 ## Steps
 
-- First, read the "Termina Experience" markdown file. This will get you setup with tmux and oh my tmux.
+- First, read the "Terminal Experience" markdown file. This will get you setup with tmux and oh my tmux.
 - Then, you can optionally review the "Advanced Terminals" guide to get setup with `ghostty`, etc.  Be sure to check for updates as my versions of `ghostty` listed may be aging.
-- Finally backup your existing `tmux.conf.local`, if needed and then copy/replace with the custom configuration available from the releases on the right
+- Finally backup your existing `~/.tmux.conf.local`, if needed and then copy/replace with the custom configuration available from the releases on the right
 
-> Note: The file has a .txt extension but you will rename it to `tmux.conf.local` which goes right in your `~`, a.k.a. home directory.  You can `ls -lh ~/.tmux.conf.local` to see the file.  To edit with your code editor browse to your home directory and then press `SHIFT-h` which will show/hide hidden files (on `Ubuntu` anyway).
+> Note: The file has a .txt extension but you will rename it to `.tmux.conf.local` which goes right in your `~`, a.k.a. home directory.  You can `ls -lh ~/.tmux.conf.local` to see the file.  To edit with your code editor browse to your home directory and then press `SHIFT-h` which will show/hide hidden files (on `Ubuntu` anyway).
 
 Then you can just run `tmux`.  To keep your existing session you can `tmux detach`. To come back `tmux attach` or `tmux list-sessions`.  See the included guides for more tips like reloading the configuration, etc.
