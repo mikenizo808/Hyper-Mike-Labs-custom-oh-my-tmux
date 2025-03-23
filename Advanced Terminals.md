@@ -7,8 +7,22 @@ easily (using `zig`), we will compile it ourselves.
 
 No experience is required. Follow along to install `zig` and compile your very own `ghostty` terminal.
 
+> Update: The latest nightly `tip` releases of `ghostty` now requires `zig v0.14` to compile. However, below we install  `ghostty v1.1.2` (released in Feb 2025) which still uses `zig v0.13`.
+
+## Optionally review the `ghostty` releases page
+
+[https://github.com/ghostty-org/ghostty/tags](https://github.com/ghostty-org/ghostty/tags)
+
+## Optionally review a wrong version of `zig` issue
+
+Optionally review a sample error displayed when trying to compile a version greater than `ghostty v1.1.2` with `zig v0.13`. The fix is to use `zig v0.14` for higher versions of `ghostty` when they become available.
+
+[https://github.com/ghostty-org/ghostty/discussions/6732](https://github.com/ghostty-org/ghostty/discussions/6732)
+
+
 ## Objective
-Download `zig` (version `0.13`) and `ghostty` source, then compile `ghostty`
+
+Download `zig v0.13`) and `ghostty v1.1.2` source, then compile `ghostty`
 
 ## Get zig v0.13
 
@@ -21,32 +35,29 @@ Download `zig` (version `0.13`) and `ghostty` source, then compile `ghostty`
     cd zig-linux-x86_64-0.13.0
 
 ## Optionally show `zig` version
+
 By using `./` we call the `zig` binary in the current folder location.
 
     ./zig version
 
 ## Download ghostty source
 
-    #old
-    #wget https://github.com/ghostty-org/ghostty/archive/refs/tags/v1.0.1.tar.gz
-    #tar -xzvf ./v1.0.1.tar.gz
-
-    #new 1.1.2
+    #This is for ghostty v1.1.2 (Feb 2025, requires zig 0.13 to compile)
     wget https://github.com/ghostty-org/ghostty/archive/refs/tags/v1.1.2.tar.gz
     tar -xzvf v1.1.2.tar.gz
 
 
-
-> Note: Once extracted, `v1.0.1.tar.gz` will become a folder called `ghostty-1.0.1`.
+> Note: Once extracted, `v1.1.2.tar.gz` will become a folder called `ghostty-1.1.2`.
 
 ## Navigate into the `ghostty` directory
 
 From this directory, though we can compile.
 
-    cd ./ghostty-1.0.1
+    cd ./ghostty-1.1.2
 
 
 ## Confirm you see still see `ghostty` version `0.13`
+
 By using `../` this time, we call the `zig` binary that is located
 two directories above the current location.
 
