@@ -22,7 +22,7 @@ Optionally review a sample error displayed when trying to compile a version grea
 
 ## Objective
 
-Download `zig v0.13`) and `ghostty v1.1.2` source, then compile `ghostty`
+Download `zig v0.13` and `ghostty v1.1.2` source, then compile `ghostty`
 
 ## Get zig v0.13
 
