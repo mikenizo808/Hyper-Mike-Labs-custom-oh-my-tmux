@@ -307,7 +307,6 @@ tmux_conf_theme_status_right=" #{prefix}#{mouse}#{pairing}#{synchronized} | peop
 #tmux_conf_theme_status_left_bg="$tmux_conf_theme_colour_9,$tmux_conf_theme_colour_10,$tmux_conf_theme_colour_11"
 #tmux_conf_theme_status_left_attr="bold,none,none"
 
-
 ## status left style (customized)
 tmux_conf_theme_status_left_fg="$tmux_conf_theme_colour_14,$tmux_conf_theme_colour_7,$tmux_conf_theme_colour_14" #dark gray, white, dark gray
 tmux_conf_theme_status_left_bg="$tmux_conf_theme_colour_98,$tmux_conf_theme_colour_97,$tmux_conf_theme_colour_96" #orange,brown,teal
@@ -318,21 +317,7 @@ tmux_conf_theme_status_left_attr="none,none,none"
 #tmux_conf_theme_status_right_fg="$tmux_conf_theme_colour_12,$tmux_conf_theme_colour_13,$tmux_conf_theme_colour_14"
 #tmux_conf_theme_status_right_bg="$tmux_conf_theme_colour_15,$tmux_conf_theme_colour_16,$tmux_conf_theme_colour_17"
 
-# status right style - Colors when weather = detail level 3 - Configures desired colors one for each item in status right. The order is left to right. It will loop through the provided colors if there are more items on the bars.
-#tmux_conf_theme_status_right_fg="$tmux_conf_theme_colour_15,$tmux_conf_theme_colour_17,$tmux_conf_theme_colour_13,$tmux_conf_theme_colour_14,$tmux_conf_theme_colour_12,$tmux_conf_theme_colour_12"
-#tmux_conf_theme_status_right_bg="$tmux_conf_theme_colour_15,$tmux_conf_theme_colour_4,$tmux_conf_theme_colour_3,$tmux_conf_theme_colour_17",$tmux_conf_theme_colour_15,$tmux_conf_theme_colour_15
-## decoder for above FG                                 Dark Gray                  Gray                      White                     Dark Gray                   Light Gray                 Light Gray
-## decoder for above BG                                 Dark Gray                  Light Blue                Light Gray                White                       Dark Gray                  Dark Gray
-## decoder for menu right location                      position 0 (hidden)        position 1                position 2                position 3                  position 4                 position 5
-
-# status right style - Colors when weather = detail level 4 - Configures desired colors one for each item in status right. The order is left to right. It will loop through the provided colors if there are more items on the bars.
-#tmux_conf_theme_status_right_fg="$tmux_conf_theme_colour_13,$tmux_conf_theme_colour_17,$tmux_conf_theme_colour_13,$tmux_conf_theme_colour_14,$tmux_conf_theme_colour_12,$tmux_conf_theme_colour_12"
-#tmux_conf_theme_status_right_bg="$tmux_conf_theme_colour_15,$tmux_conf_theme_colour_4,$tmux_conf_theme_colour_3,$tmux_conf_theme_colour_17",$tmux_conf_theme_colour_15,$tmux_conf_theme_colour_15
-## decoder for above FG                                 White                      Gray                      White                     Dark Gray                   Light Gray                 Light Gray
-## decoder for above BG                                 Dark Gray                  Light Blue                Light Gray                White                       Dark Gray                  Dark Gray
-## decoder for menu right location                      position 0 (hidden)        position 1                position 2                position 3                  position 4                 position 5
-
-# status right style - another mod - Colors when weather = detail level 4 - Configures desired colors one for each item in status right. The order is left to right. It will loop through the provided colors if there are more items on the bars.
+# status right style (minimalist)
 tmux_conf_theme_status_right_fg="$tmux_conf_theme_colour_13,$tmux_conf_theme_colour_12,$tmux_conf_theme_colour_12,$tmux_conf_theme_colour_12,$tmux_conf_theme_colour_12,$tmux_conf_theme_colour_12"
 tmux_conf_theme_status_right_bg="$tmux_conf_theme_colour_15,$tmux_conf_theme_colour_14,$tmux_conf_theme_colour_14,$tmux_conf_theme_colour_14",$tmux_conf_theme_colour_15,$tmux_conf_theme_colour_15
 ## decoder for above FG                                 White                      Light Gray                Light Gray                Light Gray                 Light Gray                 Light Gray
